@@ -162,7 +162,7 @@ public class GUIPracticeClient extends JComponent implements Runnable  {
                     } while (usernameVerify);
 
                     //System.out.println("Please enter a password");
-                     password = JOptionPane.showInputDialog(null, "Please enter a password",
+                    password = JOptionPane.showInputDialog(null, "Please enter a password",
                             "LMS SignUp", JOptionPane.QUESTION_MESSAGE);
 
                     while (password == null || password.equals("")) {
@@ -190,7 +190,76 @@ public class GUIPracticeClient extends JComponent implements Runnable  {
                                 e.printStackTrace();
                             }
                             LMSClient lmsClient = new LMSClient(new Teacher(name, username, password));
+                            panel2.setVisible(false);
 
+                            JPanel teacherPanel = new JPanel();
+                            JButton createCourse = new JButton("Create a course");
+                            createCourse.addActionListener(new ActionListener() {
+                                public void actionPerformed(ActionEvent ae) {
+                                    int teacherSelection = 1;
+                                    try {
+                                        objectOutputStream.writeObject(teacherSelection);
+                                        objectOutputStream.flush();
+                                    }catch (Exception e) {
+                                        e.printStackTrace();
+                                    }
+                                }
+                            });
+                            teacherPanel.add(createCourse);
+                            JButton selectCourse = new JButton("Select a course");
+                            selectCourse.addActionListener(new ActionListener() {
+                                public void actionPerformed(ActionEvent ae) {
+                                    int teacherSelection = 2;
+                                    try {
+                                        objectOutputStream.writeObject(teacherSelection);
+                                        objectOutputStream.flush();
+                                    }catch (Exception e) {
+                                        e.printStackTrace();
+                                    }
+                                }
+                            });
+                            teacherPanel.add(selectCourse);
+                            JButton gradeStudent = new JButton("Grade a student");
+                            gradeStudent.addActionListener(new ActionListener() {
+                                public void actionPerformed(ActionEvent ae) {
+                                    int teacherSelection = 3;
+                                    try {
+                                        objectOutputStream.writeObject(teacherSelection);
+                                        objectOutputStream.flush();
+                                    }catch (Exception e) {
+                                        e.printStackTrace();
+                                    }
+                                }
+                            });
+                            teacherPanel.add(gradeStudent);
+                            JButton editAccount = new JButton("Edit or delete account");
+                            editAccount.addActionListener(new ActionListener() {
+                                public void actionPerformed(ActionEvent ae) {
+                                    int teacherSelection = 4;
+                                    try {
+                                        objectOutputStream.writeObject(teacherSelection);
+                                        objectOutputStream.flush();
+                                    }catch (Exception e) {
+                                        e.printStackTrace();
+                                    }
+                                }
+                            });
+                            teacherPanel.add(editAccount);
+                            JButton exit = new JButton("Exit");
+                            exit.addActionListener(new ActionListener() {
+                                public void actionPerformed(ActionEvent ae) {
+                                    int teacherSelection = 5;
+                                    try {
+                                        objectOutputStream.writeObject(teacherSelection);
+                                        objectOutputStream.flush();
+                                    }catch (Exception e) {
+                                        e.printStackTrace();
+                                    }
+                                }
+                            });
+                            teacherPanel.add(exit);
+                            jFrame.add(teacherPanel);
+                            jFrame.setVisible(true);
                         }
                     });
                     panel2.add(teacher);
