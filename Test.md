@@ -126,7 +126,7 @@ If the discussion forum has been successfully created or imported, a GUI will po
 
 Test Status: Passed
 
-## Test 18: Grade Student&#39;s Response (Teacher)
+## Test 8: Grade Student&#39;s Response (Teacher)
 
 Steps:
 
