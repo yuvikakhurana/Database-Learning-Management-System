@@ -1,4 +1,4 @@
-## Connecting to Server
+## Test 1: Connecting to Server
 
 Steps:
 
@@ -20,7 +20,7 @@ GUI pop up &quot;Failure to establish connection&quot;. There was an error conne
 
 Test Status: Passed.
 
-## Create and Account in the System
+## Test 2: Create and Account in the System
 
 Steps:
 
@@ -44,7 +44,7 @@ If the account is created as a student a GUI will popup allowing you to select a
 
 Test Status: Passed.
 
-## Sign into the System
+## Test 3: Sign into the System
 
 Steps:
 
@@ -64,7 +64,7 @@ If you have entered a valid username and password, a GUI will popup stating &quo
 
 Test Status: Passed.
 
-## Delete Account
+## Test 4: Delete Account
 
 Steps:
 
@@ -78,7 +78,7 @@ A GUI will pop up stating &quot;Your account has been deleted&quot; and you will
 
 Test Status: Passed.
 
-## Modify Account
+## Test 5: Modify Account
 
 Steps:
 
@@ -96,7 +96,7 @@ If the account name is valid, a GUI pop-up will show the account being edited, a
 
 Test Status: Passed.
 
-## Make a New Course (Teacher)
+## Test 6: Make a New Course (Teacher)
 
 Steps:
 
@@ -109,7 +109,7 @@ If the course does not yet exist, a GUI will pop up and state &quot;Course has b
 
 Test Status: Passed.
 
-## Make a New Discussion Forum (Teacher)
+## Test 7: Make a New Discussion Forum (Teacher)
 
 Steps:
 
@@ -126,7 +126,7 @@ If the discussion forum has been successfully created or imported, a GUI will po
 
 Test Status: Passed
 
-## Grade Student&#39;s Response (Teacher)
+## Test 18: Grade Student&#39;s Response (Teacher)
 
 Steps:
 
@@ -157,7 +157,7 @@ After entering the post through the GUI, the GUI will show that the post has bee
 
 Test Status: Passed.
 
-## View the Score (Student)
+## Test 9: View the Score (Student)
 
 Steps:
 
@@ -172,7 +172,7 @@ If the student had made posts, there will be a GUI displaying all the posts made
 
 Test Status: Passed.
 
-## Make a Comment to a Response
+## Test 10: Make a Comment to a Response
 
 Steps:
 
@@ -201,7 +201,7 @@ New posts will shown under each discussion forum, and they will be ordered from 
 
 Test Status: Passed
 
-## Concurrency Test
+## Test 11: Concurrency Test
 
 Description:
 
