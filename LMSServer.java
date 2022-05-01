@@ -34,7 +34,7 @@ public class LMSServer implements Runnable {
     }
 
     //METHOD TO WRITE TO THE FILE TO ENSURE DATA PERSISTENCE EVEN AFTER SERVER IS CLOSED
-    public synchronized void writingToFile() {
+    public void writingToFile() {
         ObjectOutputStream oos3 = null;
         ObjectOutputStream oos4 = null;
 
