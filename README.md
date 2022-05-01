@@ -15,6 +15,8 @@ Benjamin Tapp - Submitted Report on Brightspace.
 
 Yuvika Khurana - Submitted Vocareum workspace.
 
+Ruichen Liu - Submitted Presentation on Brightspace.
+
 # Classes
 
 ## LMSServer.java
