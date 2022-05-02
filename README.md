@@ -9,7 +9,7 @@ The user should have 2 text files called &quot;Person.txt&quot;  and &quot;Post.
 
 Users will use GUI pop up to interact with the program. There will be buttons to help users get into the function they want to use, as well as drop-down menus for selecting courses, discussion forums, and posts.
 
-Special note: please do not enter &quot;null&quot; or &quot;~&quot; to the program.
+Special note: please do not enter &quot;null&quot; or &quot;~&quot; as any input since we are using them as a seperator to read and write strings and convert them to Post objects between client and server.
 
 # Parts that Submitted by Student
 
