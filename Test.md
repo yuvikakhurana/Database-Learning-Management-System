@@ -122,6 +122,7 @@ Steps:
 
 Expected result:
 
+If the discussion forum already exists, a GUI will popup stating quot;The Discussion Forum entered already exists! Please enter different topic and prompt!&quot; and will ask the user to enter (different) topic again. 
 If the discussion forum has been successfully created, a GUI will popup stating: &quot;The Discussion Forum has been created!&quot;
 
 Test Status: Passed
@@ -138,6 +139,7 @@ Steps:
 
 Expected result:
 
+If the file path entered doesn't exist or the file is empty, a GUI will pop up with the respective descriptive error and will allow the users to enter the filename again. 
 If the discussion forum has been successfully imported, a GUI will popup stating: &quot;The Discussion Forum has been created!&quot;
 
 Test Status: Passed
@@ -155,6 +157,7 @@ Steps:
 
 Expected result:
 
+If the edited discussion topic and prompt already exists, a GUI will popup &quot;The Discussion Forum entered already exists! Please enter a different topic and prompt!&quot; and will allow the user to enter a (different) topic and prompt again. 
 If the discussion forum has been successfully edited, a GUI will popup stating: &quot;The Discussion Forum has been edited!&quot;
 
 Test Status: Passed
@@ -186,7 +189,7 @@ Steps:
 
 Expected result:
 
-If the teacher entered valid grade number, the GUI will show the student selected has been graded.
+If the teacher entered valid grade number for each post of the student selected, the GUI will show the student selected has been graded.
 
 Test Status: Passed.
 
@@ -202,9 +205,23 @@ Steps:
 
 Expected result:
 
+If the post already exists, a GUI will popup stating that it alreading exists and will ask the users for a (different) input again. 
 After entering the post through the GUI, the GUI will show that the post has been added. All other teachers and students will see the post after they entered into this discussion forum.
 
 Test Status: Passed.
+
+Two or More Users Make Response Under the Same Discussion Forum
+
+Steps:
+
+1. Two or more users connecting to the LMSServer at the same time
+2. Users randomly repeat the process in Make a Response Under a Discussion Forum
+
+Expected result:
+
+New posts will shown under each discussion forum, and they will be ordered from the newest to oldest.
+
+Test Status: Passed
 
 ## Test 13: View the Score (Student)
 
@@ -217,7 +234,7 @@ Expected result:
 
 If the student haven&#39;t made any post, a warning message will be displayed.
 
-If the student had made posts, there will be a GUI displaying all the posts made by the student, associated with the score given by the teacher. If the teacher haven&#39;t grade the post, the post will display a line indicating the post is not yet graded under the post.
+If the student had made posts, there will be a GUI displaying all the posts made by the student, associated with the score given by the teacher. If the teacher haven&#39;t grade the post, the post will display a line indicating the post is not yet graded under the post. 
 
 Test Status: Passed.
 
@@ -237,18 +254,6 @@ After entering the post through the GUI, the GUI will show that the comment has 
 
 Test Status: Passed.
 
-Two or More Users Make Response Under the Same Discussion Forum
-
-Steps:
-
-1. Two or more users connecting to the LMSServer at the same time
-2. Users randomly repeat the process in Make a Response Under a Discussion Forum
-
-Expected result:
-
-New posts will shown under each discussion forum, and they will be ordered from the newest to oldest.
-
-Test Status: Passed
 
 ## Test 15: Concurrency Test
 
