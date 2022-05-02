@@ -142,7 +142,40 @@ If the discussion forum has been successfully imported, a GUI will popup stating
 
 Test Status: Passed
 
-## Test 9: Grade Student&#39;s Response (Teacher)
+## Test 9: Editing a Discussion Forum (Teacher)
+
+Steps:
+
+1. From the main teacher GUI, select the Select a course button.
+2. A GUI will popup, use the dropdown menu to select a course you wish to modify or view data for and press ok.
+3. A GUI will popup, select the Edit a Discussion Forum button.
+4. Another GUI will pop up, this GUI displays every discussion under the selected course. Use the dropdown menu to select which Discussion you wish to edit.
+5. A GUI will prompt you to enter a new topic for your discussion.
+6. A GUI will ask you to enter the new prompt for your discussion.
+
+Expected result:
+
+If the discussion forum has been successfully edited, a GUI will popup stating: &quot;The Discussion Forum has been edited!&quot;
+
+Test Status: Passed
+
+## Test 10: Deleting a Discussion Forum (Teacher)
+
+Steps:
+
+1. From the main teacher GUI, select the Select a course button.
+2. A GUI will popup, use the dropdown menu to select a course you wish to modify or view data for and press ok.
+3. A GUI will popup, select the Delete a Discussion Forum button.
+4. Another GUI will pop up, this GUI displays every discussion under the selected course. Use the dropdown menu to select which Discussion you wish to delete.
+
+Expected result:
+
+If the discussion forum has been successfully deleted, a GUI will popup stating: &quot;The Discussion Forum has been deleted!&quot;
+
+Test Status: Passed
+
+
+## Test 11: Grade Student&#39;s Response (Teacher)
 
 Steps:
 
@@ -161,7 +194,7 @@ Make a Response Under a Discussion Forum (Student)
 
 Steps:
 
-1. After choosing Select a course under the main menu, a GUI will GUIde the student to select the course via a drop-down menu
+1. After choosing Select a course under the main menu, a GUI will Guide the student to select the course via a drop-down menu
 2. After selecting the course, the student will be allowed to choose exit the course or select a discussion forum
 3. Pressing the discussion forum button, the GUI will show the details of each discussion forum, the student can choose the discussion forum through a drop-down menu
 4. Then the GUI will show all the post under the forum, a drop-down menu will allow students to choose a post
@@ -173,7 +206,7 @@ After entering the post through the GUI, the GUI will show that the post has bee
 
 Test Status: Passed.
 
-## Test 10: View the Score (Student)
+## Test 12: View the Score (Student)
 
 Steps:
 
@@ -188,7 +221,7 @@ If the student had made posts, there will be a GUI displaying all the posts made
 
 Test Status: Passed.
 
-## Test 11: Make a Comment to a Response
+## Test 13: Make a Comment to a Response
 
 Steps:
 
@@ -217,7 +250,7 @@ New posts will shown under each discussion forum, and they will be ordered from 
 
 Test Status: Passed
 
-## Test 12: Concurrency Test
+## Test 14: Concurrency Test
 
 Description:
 
