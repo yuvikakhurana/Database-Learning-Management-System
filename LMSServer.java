@@ -27,7 +27,7 @@ public class LMSServer implements Runnable {
     private static final Object postGateKeeper = new Object();
 
 
-    //todo: specify in readme not to use ~ and "null"
+    
 
     public LMSServer(Socket socket) {
         this.person2 = person2;
