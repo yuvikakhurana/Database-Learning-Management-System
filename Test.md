@@ -122,7 +122,7 @@ Steps:
 
 Expected result:
 
-If the discussion forum already exists, a GUI will popup stating quot;The Discussion Forum entered already exists! Please enter different topic and prompt!&quot; and will ask the user to enter (different) topic again. 
+If the discussion forum already exists, a GUI will popup stating &quot;The Discussion Forum entered already exists! Please enter different topic and prompt!&quot; and will ask the user to enter (different) topic again. 
 If the discussion forum has been successfully created, a GUI will popup stating: &quot;The Discussion Forum has been created!&quot;
 
 Test Status: Passed
