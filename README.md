@@ -33,7 +33,7 @@ The Server side of the project, and process all the data.
 | personArrayList  | ArrayList< Person > | static              | The ArrayList of all the users.                                                                |
 | postArrayList    | ArrayList< Post >   | static              | The ArrayList of all the posts.                                                                |
 | courses          | ArrayList< String > | static              | The ArrayList of all the courses.                                                              |
-| postGateKeeper   | Object              | Private static final | Make sure all actions associated with postArrayList and personArrayList run in order, won't interrupt each other and don't run into race conditions.  |
+| postGateKeeper   | Object              | Private static  | Make sure all actions associated with postArrayList and personArrayList run in order, won't interrupt each other and don't run into race conditions.  |
 
 ### Constructor
 
