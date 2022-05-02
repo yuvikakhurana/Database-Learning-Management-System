@@ -48,7 +48,7 @@ The Server side of the project, and process all the data.
 | getPerson2 | Person      | None           | public    | Returns the Person object person2.                                                                                    |
 | setPerson2 | void        | Person person2 | public    | Sets the Person object person2.                                                                                       |
 | run        | void        | None           | public    | The run method of the LMSServer class, that runs in which receives, process and sends data from and to the LMSClient. |
-| writeToFile        | void        | None           | public    | The method to write to the file to endure data persistance even after server is closed. |
+| writeToFile        | void        | None           | public    | The method to write to the file to ensure data persistance even after server is closed. |
 
 ## LMSClient.java
 
