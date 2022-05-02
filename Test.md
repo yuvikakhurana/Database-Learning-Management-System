@@ -109,24 +109,40 @@ If the course does not yet exist, a GUI will pop up and state &quot;Course has b
 
 Test Status: Passed.
 
-## Test 7: Make a New Discussion Forum (Teacher)
+## Test 7: Manually Create a New Discussion Forum (Teacher)
 
 Steps:
 
 1. From the main teacher GUI, select the Select a course button.
 2. A GUI will popup, use the dropdown menu to select a course you wish to modify or view data for and press ok.
 3. A GUI will popup, select the Create a Discussion Forum button.
-4. Another GUI will pop up, giving you the option to manually create a discussion forum or import a discussion forum from a file.
-5. If you choose to manually create a discussion forum, a GUI will pop up and you will be asked to enter the topic for your discussion forum. If you choose to import a file, a GUI will popup and you will be asked to enter the name of the file you would like to import.
-6. If you are manually creating a discussion forum a GUI will pop up, this time asking you to enter the prompt for your discussion forum.
+4. Another GUI will pop up, select the option to manually create a discussion forum.
+5. A GUI will pop up and you will be asked to enter the topic for your discussion forum.
+6. A final GUI will popup, this time asking you to enter the prompt for your discussion forum.
 
 Expected result:
 
-If the discussion forum has been successfully created or imported, a GUI will popup stating: &quot;The Discussion Forum has been created!&quot;
+If the discussion forum has been successfully created, a GUI will popup stating: &quot;The Discussion Forum has been created!&quot;
 
 Test Status: Passed
 
-## Test 8: Grade Student&#39;s Response (Teacher)
+## Test 8: Import a New Discussion Forum (Teacher)
+
+Steps:
+
+1. From the main teacher GUI, select the Select a course button.
+2. A GUI will popup, use the dropdown menu to select a course you wish to modify or view data for and press ok.
+3. A GUI will popup, select the Create a Discussion Forum button.
+4. Another GUI will pop up, select the option to import a new discussion forum from a file.
+5. a GUI will popup and you will be asked to enter the name of the file you would like to import (This should be a .txt file). 
+
+Expected result:
+
+If the discussion forum has been successfully imported, a GUI will popup stating: &quot;The Discussion Forum has been created!&quot;
+
+Test Status: Passed
+
+## Test 9: Grade Student&#39;s Response (Teacher)
 
 Steps:
 
@@ -157,7 +173,7 @@ After entering the post through the GUI, the GUI will show that the post has bee
 
 Test Status: Passed.
 
-## Test 9: View the Score (Student)
+## Test 10: View the Score (Student)
 
 Steps:
 
@@ -172,7 +188,7 @@ If the student had made posts, there will be a GUI displaying all the posts made
 
 Test Status: Passed.
 
-## Test 10: Make a Comment to a Response
+## Test 11: Make a Comment to a Response
 
 Steps:
 
@@ -201,7 +217,7 @@ New posts will shown under each discussion forum, and they will be ordered from 
 
 Test Status: Passed
 
-## Test 11: Concurrency Test
+## Test 12: Concurrency Test
 
 Description:
 
