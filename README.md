@@ -9,6 +9,8 @@ The user should have 2 text files called &quot;Person.txt&quot;  and &quot;Post.
 
 Users will use GUI pop up to interact with the program. There will be buttons to help users get into the function they want to use, as well as drop-down menus for selecting courses, discussion forums, and posts.
 
+Special note: please do not enter &quot;null&quot; or &quot;~&quot; to the program.
+
 # Parts that Submitted by Student
 
 Benjamin Tapp - Submitted Report on Brightspace.
