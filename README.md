@@ -29,11 +29,11 @@ The Server side of the project, and process all the data.
 
 | Name             | Type                | Modifiers            | Description                                                                                    |
 |------------------|---------------------|----------------------|------------------------------------------------------------------------------------------------|
-| person2          | Person              | private              | A new Person object.                                                                           || lms             | LearningManagementSystem | private   | A new LearningManagementSystem object. |
-| personArrayList  | ArrayList< Person > | private              | The ArrayList of all the users.                                                                |
-| postArrayList    | ArrayList< Post >   | private              | The ArrayList of all the posts.                                                                |
-| courses          | ArrayList< String > | private              | The ArrayList of all the courses.                                                              |
-| postGateKeeper   | Object              | Private static final | Make sure all actions associated with postArrayList and personArrayList run in order, won't interrupt each other and don'r run into race conditions.  |
+| person2          | Person              | private              | A new Person object.                                                                           
+| personArrayList  | ArrayList< Person > | static              | The ArrayList of all the users.                                                                |
+| postArrayList    | ArrayList< Post >   | static              | The ArrayList of all the posts.                                                                |
+| courses          | ArrayList< String > | static              | The ArrayList of all the courses.                                                              |
+| postGateKeeper   | Object              | Private static final | Make sure all actions associated with postArrayList and personArrayList run in order, won't interrupt each other and don't run into race conditions.  |
 
 ### Constructor
 
