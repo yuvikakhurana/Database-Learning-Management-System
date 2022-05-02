@@ -11,7 +11,7 @@ Users will use GUI pop up to interact with the program. There will be buttons to
 
 Special note: please do not enter &quot;null&quot; or &quot;~&quot; as any input since we are using them as a seperator to read and write strings and convert them to Post objects between client and server.
 
-# Parts that Submitted by Student
+# Parts Submitted by Student
 
 Benjamin Tapp - Submitted Report on Brightspace.
 
@@ -33,8 +33,7 @@ The Server side of the project, and process all the data.
 | personArrayList  | ArrayList< Person > | private              | The ArrayList of all the users.                                                                |
 | postArrayList    | ArrayList< Post >   | private              | The ArrayList of all the posts.                                                                |
 | courses          | ArrayList< String > | private              | The ArrayList of all the courses.                                                              |
-| personGateKeeper | Object              | Private static final | Make sure all actions associated with person objects run in order, won't interrupt each other. |
-| postGateKeeper   | Object              | Private static final | Make sure all actions associated with posts objects run in order, won't interrupt each other.  |
+| postGateKeeper   | Object              | Private static final | Make sure all actions associated with postArrayList and personArrayList run in order, won't interrupt each other and don'r run into race conditions.  |
 
 ### Constructor
 
@@ -49,6 +48,7 @@ The Server side of the project, and process all the data.
 | getPerson2 | Person      | None           | public    | Returns the Person object person2.                                                                                    |
 | setPerson2 | void        | Person person2 | public    | Sets the Person object person2.                                                                                       |
 | run        | void        | None           | public    | The run method of the LMSServer class, that runs in which receives, process and sends data from and to the LMSClient. |
+| writeToFile        | void        | None           | public    | The method to write to the file to endure data persistance even after server is closed. |
 
 ## LMSClient.java
 
@@ -61,7 +61,6 @@ The Client side of the project, user uses GUI to interact with the system. The c
 | person1            | Person             | None           | A person object.                      |
 | objectOutputStream | ObjectOutputStream | private static | The object that writes objects.       |
 | objectInputStream  | ObjectInputStream  | private static | The object that reads objects.        |
-| socket             | Socket             | private static | A socket that connects to the server. |
 
 ### Constructor
 
