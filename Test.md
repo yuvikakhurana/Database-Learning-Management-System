@@ -190,7 +190,7 @@ If the teacher entered valid grade number, the GUI will show the student selecte
 
 Test Status: Passed.
 
-Make a Response Under a Discussion Forum (Student)
+## Test 12: Make a Response Under a Discussion Forum (Student)
 
 Steps:
 
@@ -206,7 +206,7 @@ After entering the post through the GUI, the GUI will show that the post has bee
 
 Test Status: Passed.
 
-## Test 12: View the Score (Student)
+## Test 13: View the Score (Student)
 
 Steps:
 
@@ -221,7 +221,7 @@ If the student had made posts, there will be a GUI displaying all the posts made
 
 Test Status: Passed.
 
-## Test 13: Make a Comment to a Response
+## Test 14: Make a Comment to a Response
 
 Steps:
 
@@ -250,7 +250,7 @@ New posts will shown under each discussion forum, and they will be ordered from 
 
 Test Status: Passed
 
-## Test 14: Concurrency Test
+## Test 15: Concurrency Test
 
 Description:
 
